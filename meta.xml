@@ -1,0 +1,104 @@
+<meta>
+	<info name ="xrParticlesEditor" description="xrParticlesEditor" version="1.0.0" type="script" author="Samake"/>
+	<!-- ### AUTHORS & CO-AUTHORS ###
+		-> sbx320 (classLib for OOP functionalities)
+		-> Sam@ke (Scripting)
+		-> eAi, QA Team (used freecam techniques)
+		-> Jusonex (base of animationClasses)
+		-> Krischkros (base of animationClasses)
+		-> ZuluTangoDelta (brainstorming and examples for rotation calculations)
+	-->
+	<min_mta_version client="1.4" server="1.4"/>
+	<oop>true</oop>
+	
+	<!-- config -->
+	<file src="config.xml" type="client"/>
+	
+	<!-- client scripts -->
+	<script src="client/system/CoreClassC.lua" type="client" cache="false"/>
+	<script src="client/system/StartupC.lua" type="client" cache="false"/>
+	<script src="client/system/PresetHandlerC.lua" type="client" cache="false"/>
+	<script src="client/manager/ElementManagerC.lua" type="client" cache="false"/>
+	<script src="client/manager/ParticleEffect3DManagerC.lua" type="client" cache="false"/>
+	<script src="client/classes/animations/AnimateOutBounceC.lua" type="client" cache="false"/>
+	<script src="client/classes/ParticleEffect3DClassC.lua" type="client" cache="false"/>
+	<script src="client/classes/Particle2DClassC.lua" type="client" cache="false"/>
+	<script src="client/classes/Particle3DClassC.lua" type="client" cache="false"/>
+	<script src="client/classes/EditorClassC.lua" type="client" cache="false"/>
+	<script src="client/classes/EditorGUIClassC.lua" type="client" cache="false"/>
+	<script src="client/classes/FreeCamC.lua" type="client" cache="false"/>
+	
+	<!-- server scripts -->
+	<script src="server/system/CoreClassS.lua" type="server"/>
+	<script src="server/manager/ElementManagerS.lua" type="server"/>
+	<script src="server/manager/ResourceManagerS.lua" type="server"/>
+	
+	
+	<!-- shared scripts -->
+	<script src="shared/classlib.lua" type="shared" cache="false"/>
+	<script src="shared/xrUtils.lua" type="shared" cache="false"/>
+	
+	<!-- textures -->
+	<file src="res/textures/misc/xrLogo.png" type="client"/>
+	<file src="res/textures/misc/blackBG.png" type="client"/>
+	<file src="res/textures/misc/emptyBG.png" type="client"/>
+	<file src="res/textures/misc/editorMainBG.png" type="client"/>
+	<file src="res/textures/misc/cursor.png" type="client"/>
+	<file src="res/textures/effects/smoke_A.dds" type="client"/>
+	<file src="res/textures/effects/smoke_B.dds" type="client"/>
+	<file src="res/textures/effects/smoke_C.dds" type="client"/>
+	<file src="res/textures/effects/smoke_D.dds" type="client"/>
+	<file src="res/textures/effects/dirt_A.dds" type="client"/>
+	<file src="res/textures/effects/dirt_B.dds" type="client"/>
+	<file src="res/textures/effects/dirt_C.dds" type="client"/>
+	<file src="res/textures/effects/colorDot_A.dds" type="client"/>
+	<file src="res/textures/effects/colorDot_B.dds" type="client"/>
+	<file src="res/textures/effects/colorDot_C.dds" type="client"/>
+	<file src="res/textures/effects/colorDot_D.dds" type="client"/>
+	<file src="res/textures/effects/colorDot_E.dds" type="client"/>
+	<file src="res/textures/effects/corona_A.dds" type="client"/>
+	<file src="res/textures/effects/corona_B.dds" type="client"/>
+	<file src="res/textures/effects/galaxy_A.dds" type="client"/>
+	<file src="res/textures/effects/galaxy_B.dds" type="client"/>
+	<file src="res/textures/effects/bubbles_A.dds" type="client"/>
+	<file src="res/textures/effects/bubbles_B.dds" type="client"/>
+	<file src="res/textures/effects/bubbles_C.dds" type="client"/>
+	<file src="res/textures/effects/anomaly_A.dds" type="client"/>
+	<file src="res/textures/effects/blood_A.dds" type="client"/>
+	<file src="res/textures/effects/leaf_A.dds" type="client"/>
+	<file src="res/textures/effects/fan_A.dds" type="client"/>
+	<file src="res/textures/effects/fan_B.dds" type="client"/>
+	<file src="res/textures/effects/fan_C.dds" type="client"/>
+	<file src="res/textures/effects/flashback_A.dds" type="client"/>
+	<file src="res/textures/effects/flashback_B.dds" type="client"/>
+	<file src="res/textures/effects/splash_A.dds" type="client"/>
+	<file src="res/textures/effects/glow_A.dds" type="client"/>
+	<file src="res/textures/effects/glow_B.dds" type="client"/>
+	
+	<!-- acl requests -->
+	<aclrequest>
+		<right name="general.ModifyOtherObjects" access="true"/>
+        <right name="function.startResource" access="true"/>
+        <right name="function.stopResource" access="true"/>
+        <right name="function.restartResource" access="true"/>
+        <right name="function.createResource" access="true"/>
+        <right name="function.copyResource" access="true"/>
+        <right name="function.renameResource" access="true"/>
+        <right name="function.deleteResource" access="true"/>
+		<right name="function.refreshResources" access="true"/>
+        <right name="function.addResourceMap" access="true"/>
+        <right name="function.addResourceConfig" access="true"/>
+        <right name="function.removeResourceFile" access="true"/>
+        <right name="function.setResourceDefaultSetting" access="true"/>
+        <right name="function.removeResourceDefaultSetting" access="true"/>
+        <right name="function.xmlLoadFile" access="true"/>
+		<right name="function.executeCommandHandler" access="true"/>
+		<right name="general.ModifyOtherObjects" access="true"/>
+    </aclrequest>
+	
+	<!-- settings -->
+	<settings>
+		<setting name="*editorNeedACLPermission" value="false" friendlyname="Editor need ACL?" />
+	</settings>
+	
+</meta>

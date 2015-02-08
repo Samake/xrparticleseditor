@@ -1,0 +1,36 @@
+<config>
+	<!-- #### CORE SETTINGS #### -->
+	<showStartUPScreen>true</showStartUPScreen>
+	<startUPDuration>7000</startUPDuration>
+	<showMTAHUD>false</showMTAHUD>
+	<editorEnabledOnStart>true</editorEnabledOnStart>
+	<viewDistance>200</viewDistance>
+	<!-- #### EFFECT SETTINGS #### -->
+	<maxParticlesCount>1024</maxParticlesCount>
+	<maxRadiusValue>35</maxRadiusValue>
+	<maxTurbulenceValue>1</maxTurbulenceValue>
+	<maxVelocityXValue>1</maxVelocityXValue>
+	<maxVelocityYValue>1</maxVelocityYValue>
+	<maxVelocityZValue>1</maxVelocityZValue>
+	<maxRotationValue>25</maxRotationValue>
+	<maxStartSizeValue>15</maxStartSizeValue>
+	<maxEndSizeValue>15</maxEndSizeValue>
+	<maxBrightnessValue>1</maxBrightnessValue>
+	<maxAlphaValue>255</maxAlphaValue>
+	<!-- #### BINDINGS #### -->
+	<openEditor>m</openEditor>
+	<enableEffectMode>f</enableEffectMode>
+	<moveCamForward>w</moveCamForward>
+	<moveCamBack>s</moveCamBack>
+	<moveCamLeft>a</moveCamLeft>
+	<moveCamRight>d</moveCamRight>
+	<moveCamFast>lshift</moveCamFast>
+	<moveCamSlow>lalt</moveCamSlow>
+	<moveEffectForward>arrow_u</moveEffectForward>
+	<moveEffectBack>arrow_d</moveEffectBack>
+	<moveEffectLeft>arrow_l</moveEffectLeft>
+	<moveEffectRight>arrow_r</moveEffectRight>
+	<moveEffectUp>num_8</moveEffectUp>
+	<moveEffectDown>num_2</moveEffectDown>
+	<deleteEffect>delete</deleteEffect>
+</config>

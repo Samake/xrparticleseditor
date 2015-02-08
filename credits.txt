@@ -1,0 +1,16 @@
+xrParticles Editor was created by Sam@ke in 2015.
+
+Following persons were included directly or indirectly on creating this resource:
+
+- sbx320 (ClassLib)
+- Sam@ke (Scripting)
+- eAi, QA Team (FreeCam)
+- Jusonex (AnimationClasses)
+- Krischkros (AnimationClasses)
+- ZuluTangoDelta (Brainstorming and Discussions)
+
+For bug reporting you can send me an email to: questions@samake-gaming.de
+...or you can leave a post here:
+
+http://forum.mtasa.com/viewtopic.php?f=108&t=84701
+
